@@ -14,3 +14,9 @@ Simple program for generating white noise on a Raspberry Pi.
 # Run
 
     /bin/sleppy hw:0,0
+
+# Configure
+
+To change the volume, do:
+
+    amixer sset PCM 100%
